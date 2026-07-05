@@ -1,0 +1,27 @@
+# --- STM32 / CubeIDE build output ---
+Debug/
+Release/
+.build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Cube/Eclipse metadata
+.settings/
+.cproject
+.project
+*.launch
+# Keep the .ioc file (do NOT ignore it)
+
+# VS Code caches
+.vscode/browse.vc.db*
+.vscode/browse.*.db*
+.vscode/*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
